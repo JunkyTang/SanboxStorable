@@ -1,0 +1,23 @@
+PODS:
+  - LuckyException (1.0.1)
+  - LuckySanboxStorable (0.1.0):
+    - LuckyException (~> 1.0)
+
+DEPENDENCIES:
+  - LuckySanboxStorable (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - LuckyException
+
+EXTERNAL SOURCES:
+  LuckySanboxStorable:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LuckyException: 14fed2cefc505cd147fafb00bb59de8c25873b9f
+  LuckySanboxStorable: 682e7d9a9f8c939b743cda70f9534495fecb329f
+
+PODFILE CHECKSUM: 45b9224d57d8036b7167b570ab83adda727f02c4
+
+COCOAPODS: 1.15.2
