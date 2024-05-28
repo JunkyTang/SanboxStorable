@@ -55,8 +55,10 @@ class ViewController: UIViewController {
 
 struct FileModel:SanboxFileModel {
     
+    /// 保存的文件名字
     var sanboxFileName: String?
     
+    /// 原始文件目录
     var originFileUrl: URL
     
 }

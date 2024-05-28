@@ -30,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		3BF963802C05798800B7DAC5 /* temp.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = temp.pdf; sourceTree = "<group>"; };
+		3BF963822C058AD300B7DAC5 /* README_CN.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README_CN.md; path = ../README_CN.md; sourceTree = "<group>"; };
 		50B53732C6C818CA533AF194 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5EBDBFA5C2A74632A06E442C /* Pods-LuckySanboxStorable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckySanboxStorable_Tests.release.xcconfig"; path = "Target Support Files/Pods-LuckySanboxStorable_Tests/Pods-LuckySanboxStorable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* LuckySanboxStorable_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckySanboxStorable_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -137,6 +138,7 @@
 			children = (
 				AA113BC16C51053B0F60F7FE /* LuckySanboxStorable.podspec */,
 				50B53732C6C818CA533AF194 /* README.md */,
+				3BF963822C058AD300B7DAC5 /* README_CN.md */,
 				67CD12265B5803F0930E40E2 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
