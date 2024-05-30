@@ -40,6 +40,10 @@ public extension SanboxStorable {
         throw Exception(msg: "start Accessing Security Scoped Resource failure")
     }
     
+    func removeInSanbox(directory: URL, folder: String, name: String) throws {
+        let url = try sanboxUrl(directory: directory, folder: folder, name: name)
+        try FileManager.default.removeItem(at: url)
+    }
     
     func dataInSanbox(directory: URL, folder: String, name: String) throws -> Data {
         
@@ -47,6 +51,7 @@ public extension SanboxStorable {
         let data = try Data(contentsOf: url)
         return data
     }
+    
     
     
 }
