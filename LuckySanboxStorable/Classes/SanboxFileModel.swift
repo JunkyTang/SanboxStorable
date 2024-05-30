@@ -41,6 +41,13 @@ public extension SanboxFileModel {
         sanboxFileName = name
     }
     
+    func remove() throws {
+        guard let name = sanboxFileName else {
+            throw Exception(msg: "Unavailable sanbox file name")
+        }
+        try removeInSanbox(directory: sanboxDirectory, folder: folderName, name: name)
+    }
+    
     /// read file from sanbox
     func dataInSanbox() throws -> Data {
         guard let sanboxFileName = sanboxFileName else {
